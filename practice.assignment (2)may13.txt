@@ -1,0 +1,368 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "108277f5-ba44-46ee-ac50-bcc8e93b18e7",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "#2\n",
+    "\n",
+    "differnce between \"string &variable\"\n",
+    "\n",
+    "String : A string is a type of information when we would store in a variable.string is one dimenstional od data.\n",
+    "variable: whereas a variable is astore of information\n",
+    "\n",
+    "example: X= \"Hello\"\n",
+    "\n",
+    "# here x is the variable\n",
+    "\n",
+    "example: Names1= {\"joy\",\"alice\"}#here \"{is the string variable."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "4445d94c-1aaa-4e7c-a0df-1bc634f7b4c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (3522284979.py, line 11)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[2], line 11\u001b[0;36m\u001b[0m\n\u001b[0;31m    1.String data type: A string is a sequence of characters that can be a combination of letters, numbers, and special characters. It can be declared in python by using single quotes, double quotes, or even triple quotes.\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "#three different data types\n",
+    "Data types: Data types are the classifications of catagories data items.It represent the kind of value that tells what operations it will be performed on a particular data.\n",
+    "The following are the standard or built in data type\n",
+    " in python.\n",
+    "    \n",
+    "    1. Sequence data type\n",
+    "    #string\n",
+    "    #list \n",
+    "    #tuple\n",
+    "    \n",
+    "    1.String data type: A string is a sequence of characters that can be a combination of letters, numbers, and special characters. It can be declared in python by using single quotes, double quotes, or even triple quotes.\n",
+    "    \n",
+    "    2.List data type: Lists are one of the most powerful data structures in python. Lists are sequenced data types.  In Python, an empty list is created using list() function.\n",
+    "    \n",
+    "    3.Tuple data types:  A tuple is a sequence of immutable Python objects. Tuples are just like lists with the exception that tuples cannot be changed once declared.\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "c9bf28f4-880c-4251-ade0-2cada104a450",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Madhu\n"
+     ]
+    }
+   ],
+   "source": [
+    "A= 'Madhu'#string example\n",
+    "print(A) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "2eba3315-71b6-494c-bc90-e331edea07e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Madhu', 77]\n"
+     ]
+    }
+   ],
+   "source": [
+    "L1 = [\"Madhu\",77]#example of list data type\n",
+    "print(L1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "cec7f2e8-766d-4018-9811-02d2669c49c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Madhu\n",
+      "a\n"
+     ]
+    }
+   ],
+   "source": [
+    "#tuple\n",
+    "tuple1 = \"Madhu\"\n",
+    "print(tuple1)\n",
+    "\n",
+    "print(tuple1[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "d0d30621-744d-4973-8159-67beaf34ebde",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1805998575.py, line 3)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[13], line 3\u001b[0;36m\u001b[0m\n\u001b[0;31m    An expression is a combination of operators, constants and variables. An expression may consist of one or more operands, and zero or more operators to produce a value.\u001b[0m\n\u001b[0m       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "4. #Expression\n",
+    "\n",
+    "An expression is a combination of operators, constants and variables. An expression may consist of one or more operands, and zero or more operators to produce a value.\n",
+    "\n",
+    "example:\n",
+    "    a,a+b,/<,s-1,7*8\n",
+    "\n",
+    "    \n",
+    "5. difference between expression &statement\n",
+    "\n",
+    "expression:An expression is a combination of operators, constants and variables. An expression may consist of one or more operands, and zero or more operators to produce a value.\n",
+    "Statement: A statement is the syntactic unit of any programming language that expresses some action to be carried out. A program is formed by the sequence of one or more statement.\n",
+    "\n",
+    "ex: spam = 10\n",
+    "#here 10 is expression & spam = 10 is a statement.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "5b92f34d-0ba4-402d-94b3-fc356f3062eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "22\n",
+      "23\n"
+     ]
+    }
+   ],
+   "source": [
+    "baccon = 22\n",
+    "print(baccon)\n",
+    "\n",
+    "print(baccon+1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "84edfca5-23b0-4184-b7a1-22c179c49290",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "spamspamspam\n"
+     ]
+    }
+   ],
+   "source": [
+    "name1 = 'spam'+'spamspam'\n",
+    "\n",
+    "name2= 'spam'*3\n",
+    "print(name1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "8c3cb150-4128-41c8-b062-9d0bba8c3d3b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "eggs\n"
+     ]
+    }
+   ],
+   "source": [
+    "8.\n",
+    "\n",
+    "#variable\n",
+    "\n",
+    "name = \"eggs\"\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "b8faa255-f844-46bf-a06e-3d36479d1d93",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=100\n",
+    "print(num)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d6d2c114-30a4-4610-b1e6-89e40aab758a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "9.\n",
+    "\n",
+    "Integers are whole numbers that can be negative, zero, or positive and cannot have a fractional component. In programming, zero and positive integers are termed as “unsigned”, and the negative ones are “signed”.\n",
+    "\n",
+    "Floating-Point Numbers are the numbers that can represent a fractional component.\n",
+    "ex: 5.0,0.96,7.78\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "ac76588a-12ab-47b7-9c45-e0d3cd81d237",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I have eaten\n"
+     ]
+    }
+   ],
+   "source": [
+    "10.\n",
+    "\n",
+    "#expression\n",
+    "\n",
+    "L1 = \"I have eaten\"\n",
+    "print(L1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "86be720e-a015-4c31-8175-894d5d3f038f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "99\n"
+     ]
+    }
+   ],
+   "source": [
+    "L2 = +99\n",
+    "print(L2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "ffbf1d9c-85a6-40e8-b034-d18bf7020644",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "burritos\n"
+     ]
+    }
+   ],
+   "source": [
+    "L3 = \"burritos\"\n",
+    "print(L3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "5345d0ab-2c41-4315-809f-395a108502a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "burritos 99 burritos\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "print(L1,L2,L3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6a1ae391-a78c-447f-a5e6-5e04d0b3c5d4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
